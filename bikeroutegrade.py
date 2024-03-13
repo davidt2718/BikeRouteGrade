@@ -1,28 +1,7 @@
-import gpxpy  # GPX parser library  https://pypi.org/project/gpxpy/
+
 import scipy.signal
+import rdp
 
-# import rdp
-
-
-def readGpx(filepath):
-    """Just read GPX in to a data file"""
-    pass
-
-
-def getPositionFromGpx():
-    """Get Lat, Long, Altitude data from GPX file and put in to a convenient format"""
-    pass
-
-
-def getDistances():
-    """Point-to-point and cumulative distances"""
-    #NOTE might have to import some sort of GPS data package
-    pass
-
-
-def smoothtrack():
-    """Smooth out a length vs altitude track"""
-    pass
 
 
 def lineSegmentFit():
